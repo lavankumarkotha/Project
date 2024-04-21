@@ -25,6 +25,8 @@ pipeline {
             steps{
                 script{
                    buildImage 'lavankumarkotha/java-maven-app:1.1.0'
+                   dockerLogin()
+                   dockerPush 'lavankumarkotha/java-maven-app:1.1.0'
                 }
             }
         }
