@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-EXPOSE 9000
+EXPOSE 8080
 
 COPY ./target/JMAVEN-1.1.0-SNAPSHOT.jar /usr/app/
 
