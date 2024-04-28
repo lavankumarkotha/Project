@@ -22,7 +22,7 @@ public class Application {
     }
 
     public String getStatus() {
-        return "Ok";
+        return "OK";
     }
 }
 
